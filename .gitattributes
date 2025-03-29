@@ -1,2 +1,43 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+
+job-board-frontend/
+├── public/
+│   ├── favicon.ico
+│   └── vercel.svg
+├── src/
+│   ├── app/
+│   │   ├── (auth)/
+│   │   │   ├── login/
+│   │   │   │   └── page.tsx
+│   │   │   └── signup/
+│   │   │       └── page.tsx
+│   │   ├── dashboard/
+│   │   │   └── page.tsx
+│   │   ├── jobs/
+│   │   │   ├── [id]/
+│   │   │   │   └── page.tsx
+│   │   │   └── new/
+│   │   │       └── page.tsx
+│   │   ├── api/
+│   │   │   └── auth/
+│   │   │       └── [...nextauth]/
+│   │   │           └── route.ts
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   ├── JobCard.tsx
+│   │   ├── JobForm.tsx
+│   │   ├── Navbar.tsx
+│   │   └── ThemeToggle.tsx
+│   ├── constants/
+│   │   └── mockData.ts
+│   ├── context/
+│   │   └── store.ts
+│   ├── styles/
+│   │   └── globals.css
+│   └── types/
+│       └── index.ts
+├── next.config.js
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── README.md
